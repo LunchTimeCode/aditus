@@ -11,8 +11,8 @@ fn main() {
     let input = Input {
         username: cli.username.clone(),
         pw: cli.pw.clone(),
-        client_id: cli.client_id.clone(),
-        client_secret: cli.client_secret.clone(),
+        client_id: cli.id.clone(),
+        client_secret: cli.secret.clone(),
         domain: cli.domain.clone(),
         aud: cli.aud.clone(),
     };
@@ -57,10 +57,10 @@ struct Cli {
     aud: Option<String>,
     /// client id of the app you want a token for
     #[arg(short, long)]
-    client_id: Option<String>,
+    id: Option<String>,
     /// client secret of the app you want a token for
     #[arg(short, long)]
-    client_secret: Option<String>,
+    secret: Option<String>,
     /// auth0 domain of your tenant, if possible the custom one
     #[arg(short, long)]
     domain: Option<String>,

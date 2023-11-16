@@ -2,12 +2,12 @@ use std::env;
 
 use colored::Colorize;
 
-const USERNAME: &str = "TXP_USERNAME";
-const PW: &str = "TXP_PW";
-const CLIENT_ID: &str = "TXP_CLIENT_ID";
-const CLIENT_SECRET: &str = "TXP_CLIENT_SECRET";
-const DOMAIN: &str = "TXP_DOMAIN";
-const AUDIENCE: &str = "TXP_AUDIENCE";
+const USERNAME: &str = "TUS_USERNAME";
+const PW: &str = "TUS_PW";
+const CLIENT_ID: &str = "TUS_CLIENT_ID";
+const CLIENT_SECRET: &str = "TUS_CLIENT_SECRET";
+const DOMAIN: &str = "TUS_DOMAIN";
+const AUDIENCE: &str = "TUS_AUDIENCE";
 
 pub struct Input {
     pub(crate) username: Option<String>,
