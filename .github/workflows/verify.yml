@@ -21,4 +21,4 @@ jobs:
         with:
           tool: just@1, cargo-hack
             
-      - run: cd ./api_testing/token_getter && just verify
+      - run: just verify
