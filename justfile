@@ -16,8 +16,8 @@ log := "warn"
 
 
 # Run the cli locally (from sources)
-run args*:
-	cargo run {{args*}}
+run *args:
+	cargo run {{args}}
 
 	
 
