@@ -1,8 +1,10 @@
 [package]
 name = "aditus"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2021"
 authors = ["Silen Locatelli"]
+license = "MIT"
+repository = "https://github.com/SilenLoc/aditus"
 
 [dependencies]
 clap = { version = "4.4.8", features = ["derive", "unstable-doc", "env"] }
