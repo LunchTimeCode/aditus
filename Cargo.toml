@@ -4,6 +4,7 @@ version = "0.0.1"
 edition = "2021"
 authors = ["Silen Locatelli"]
 license = "MIT"
+description = "An easy way to get access tokens from OAuth Providers"
 repository = "https://github.com/SilenLoc/aditus"
 
 [dependencies]
